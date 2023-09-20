@@ -38,6 +38,22 @@ body {
   background: #D7A1FD;
 }
 
+.mot-a-modifier {
+  color: #000;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.cadre-simple {
+  border: 1px solid #000;
+  width: 388px;
+}
+
+
 header {
   width: 428px;
   height: 148px;

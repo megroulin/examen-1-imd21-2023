@@ -53,6 +53,14 @@ body {
   width: 388px;
 }
 
+.PROGRAMME {
+padding-left: 100px;
+}
+
+.milieu {
+  display: flex;
+  padding: 20px;
+}
 
 header {
   width: 428px;
@@ -86,6 +94,12 @@ main {
   height: 1016px;
   flex-shrink: 0;
   background: #F4EDE8;
+  align-content: center;
+  justify-content: center;
+}
+
+.main/img {
+  padding-left: 34px;
 }
 
 h1 {
@@ -119,6 +133,7 @@ h2 {
 
 h3 {
   color: #000;
+  display: flex;
   text-align: center;
   font-family: Noto Serif;
   font-size: 50px;
@@ -127,6 +142,10 @@ h3 {
   line-height: 50px; /* 100% */
   text-transform: uppercase;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding: 30px;
 }
 
 h4 {
@@ -169,6 +188,8 @@ h6 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 p {
@@ -201,7 +222,7 @@ p {
   font-weight: 300;
   line-height: 15px; /* 100% */
   text-transform: uppercase;
-  width: 388px;
+  width: 428px;
   height: 187px;
   flex-shrink: 0;
   background: #98FB00;

@@ -91,7 +91,7 @@ a {
 
 main {
   width: 428px;
-  height: 1016px;
+  height: 1100px;
   flex-shrink: 0;
   background: #F4EDE8;
   align-content: center;
@@ -100,6 +100,7 @@ main {
 
 .main/img {
   padding-left: 34px;
+  justify-content: center;
 }
 
 h1 {
@@ -204,12 +205,13 @@ p {
   letter-spacing: -1.5px;
   text-transform: uppercase;
   width: 428px;
-  height: 187px;
+  height: 150px;
   flex-shrink: 0;
   background: #98FB00;
   text-align: center;
   align-items: center;
   justify-content: center;
+
 }
 
 .GUARDIAN {
@@ -223,7 +225,7 @@ p {
   line-height: 15px; /* 100% */
   text-transform: uppercase;
   width: 428px;
-  height: 187px;
+  height: 50px;
   flex-shrink: 0;
   background: #98FB00;
   text-align: center;
@@ -231,7 +233,6 @@ p {
   justify-content: center;
 }
 
-.
 h7 {
   color: #000;
   font-family: Noto Serif;
@@ -267,7 +268,7 @@ h8 {
   flex-shrink: 0;
   background: #D7A1FD;
   text-align: center;
-
+  padding: 10px;
 }
 
 li {
@@ -320,6 +321,17 @@ footer {
   text-align: center;
 }
 
+.conteneur-avec-fond {
+  background-color: #ffffff;
+  padding: 20px; 
+  width: 90%;
+  border-radius: 20px; 
+}
+
+.conteneur-avec-fond p {
+  margin: 0px;
+}
+
 img,
 video {
   max-inline-size: 100%;
@@ -333,4 +345,8 @@ video {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.image-arrondie {
+  border-radius: 20px; 
 }

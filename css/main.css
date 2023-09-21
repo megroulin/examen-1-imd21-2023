@@ -255,6 +255,7 @@ text-transform: uppercase;
 
 h8 {
   color: #000;
+  display: flex;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 50px;
@@ -263,16 +264,20 @@ h8 {
   line-height: 50px; /* 100% */
   letter-spacing: -2.5px;
   text-transform: uppercase;
-  width: 428px;
+  width: 430px;
   height: 90px;
   flex-shrink: 0;
   background: #D7A1FD;
   text-align: center;
   padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
 color: #000;
+display: flex;
 font-family: Nunito Sans;
 font-size: 20px;
 font-style: italic;
@@ -284,6 +289,8 @@ background: #98FB00;
 width: 428px;
 height: 64px;
 flex-shrink: 0;
+text-align: left;
+align-items: center;
 }
 
 h9 {
@@ -338,7 +345,7 @@ video {
   block-size: auto;
   display: flex;
   vertical-align: text-top;
-  width: 388px;
+  width: ;
   height: 259px;
   flex-shrink: 0;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
